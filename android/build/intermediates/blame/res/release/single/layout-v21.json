@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/58714dcbd2f453a1b8ad7f82b08a890d/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/58714dcbd2f453a1b8ad7f82b08a890d/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/58714dcbd2f453a1b8ad7f82b08a890d/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/58714dcbd2f453a1b8ad7f82b08a890d/res/layout-v21/notification_action.xml"
+    }
+]

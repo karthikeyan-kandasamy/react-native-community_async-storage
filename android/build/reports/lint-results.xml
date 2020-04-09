@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.4.1">
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.android.tools.build:gradle than 3.2.1 is available: 3.6.2"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="        classpath &apos;com.android.tools.build:gradle:3.2.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build.gradle"
+            line="9"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDynamicVersion"
+        severity="Warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.facebook.react:react-native:+)"
+        category="Correctness"
+        priority="4"
+        summary="Gradle Dynamic Version"
+        explanation="Using `+` in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)"
+        errorLine1="    implementation &apos;com.facebook.react:react-native:+&apos;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build.gradle"
+            line="38"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous com.facebook.react.bridge.GuardedAsyncTask)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts.&#xA;&#xA;Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a `Fragment` or `Activity`, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected.&#xA;&#xA;Similarly, direct field references to activities and fragments from these longer running instances can cause leaks.&#xA;&#xA;ViewModel classes should never point to Views or non-application Contexts."
+        errorLine1="    new GuardedAsyncTask&lt;Void, Void>(getReactApplicationContext()) {"
+        errorLine2="    ^">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java"
+            line="130"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous com.facebook.react.bridge.GuardedAsyncTask)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts.&#xA;&#xA;Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a `Fragment` or `Activity`, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected.&#xA;&#xA;Similarly, direct field references to activities and fragments from these longer running instances can cause leaks.&#xA;&#xA;ViewModel classes should never point to Views or non-application Contexts."
+        errorLine1="    new GuardedAsyncTask&lt;Void, Void>(getReactApplicationContext()) {"
+        errorLine2="    ^">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java"
+            line="203"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous com.facebook.react.bridge.GuardedAsyncTask)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts.&#xA;&#xA;Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a `Fragment` or `Activity`, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected.&#xA;&#xA;Similarly, direct field references to activities and fragments from these longer running instances can cause leaks.&#xA;&#xA;ViewModel classes should never point to Views or non-application Contexts."
+        errorLine1="    new GuardedAsyncTask&lt;Void, Void>(getReactApplicationContext()) {"
+        errorLine2="    ^">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java"
+            line="268"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous com.facebook.react.bridge.GuardedAsyncTask)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts.&#xA;&#xA;Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a `Fragment` or `Activity`, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected.&#xA;&#xA;Similarly, direct field references to activities and fragments from these longer running instances can cause leaks.&#xA;&#xA;ViewModel classes should never point to Views or non-application Contexts."
+        errorLine1="    new GuardedAsyncTask&lt;Void, Void>(getReactApplicationContext()) {"
+        errorLine2="    ^">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java"
+            line="315"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous com.facebook.react.bridge.GuardedAsyncTask)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts.&#xA;&#xA;Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a `Fragment` or `Activity`, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected.&#xA;&#xA;Similarly, direct field references to activities and fragments from these longer running instances can cause leaks.&#xA;&#xA;ViewModel classes should never point to Views or non-application Contexts."
+        errorLine1="    new GuardedAsyncTask&lt;Void, Void>(getReactApplicationContext()) {"
+        errorLine2="    ^">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java"
+            line="377"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous com.facebook.react.bridge.GuardedAsyncTask)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts.&#xA;&#xA;Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a `Fragment` or `Activity`, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected.&#xA;&#xA;Similarly, direct field references to activities and fragments from these longer running instances can cause leaks.&#xA;&#xA;ViewModel classes should never point to Views or non-application Contexts."
+        errorLine1="    new GuardedAsyncTask&lt;Void, Void>(getReactApplicationContext()) {"
+        errorLine2="    ^">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java"
+            line="400"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `ReactDatabaseSupplier` which has field `mContext` pointing to `Context`); this is a memory leak"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts.&#xA;&#xA;Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a `Fragment` or `Activity`, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected.&#xA;&#xA;Similarly, direct field references to activities and fragments from these longer running instances can cause leaks.&#xA;&#xA;ViewModel classes should never point to Views or non-application Contexts."
+        errorLine1="  private static @Nullable ReactDatabaseSupplier sReactDatabaseSupplierInstance;"
+        errorLine2="          ~~~~~~">
+        <location
+            file="/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/ReactDatabaseSupplier.java"
+            line="42"
+            column="11"/>
+    </issue>
+
+</issues>

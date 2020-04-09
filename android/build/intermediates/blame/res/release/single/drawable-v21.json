@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/97a962e24555f9174eeb69176446b805/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/97a962e24555f9174eeb69176446b805/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/58714dcbd2f453a1b8ad7f82b08a890d/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/97a962e24555f9174eeb69176446b805/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/97a962e24555f9174eeb69176446b805/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/priya/Desktop/Test-ReactNative-Android/node_modules/@react-native-community/async-storage/android/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/priya/.gradle/caches/transforms-2/files-2.1/97a962e24555f9174eeb69176446b805/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
